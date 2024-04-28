@@ -28,6 +28,8 @@ class Sslcommerz {
     this.initializer = initializer;
   }
 
+  
+
   static const MethodChannel _channel = const MethodChannel('sslcommerz');
 
   Map<String, dynamic> toJson() => _$SslcommerzToJson(this);
@@ -40,6 +42,8 @@ class Sslcommerz {
     this.customerInfoInitializer = customerInfoInitializer;
     return this;
   }
+
+  
 
   Sslcommerz addEMITransactionInitializer(
       {@required SSLCEMITransactionInitializer sslcemiTransactionInitializer}) {
